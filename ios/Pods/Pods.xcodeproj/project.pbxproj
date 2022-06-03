@@ -19,14 +19,14 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		010DF4C370A73DE26F0F60116170A084 /* messages.g.h in Headers */ = {isa = PBXBuildFile; fileRef = AD769F820648A51C89FDD8150C8D23B5 /* messages.g.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		010DF4C370A73DE26F0F60116170A084 /* messages.g.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC18C47159E7D0E81F60F4355BD1CD1 /* messages.g.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C067CFB4412E02EF78AF97C2F2867A /* shared_preferences_ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 729425741FD40A9522FB498F0C8B4BCD /* shared_preferences_ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55D08B583EFCEB9594CE3B61D64FDEFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5ED48019E1EEFAED30162CBDA7CA4F71 /* FLTSharedPreferencesPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E881A1664DFAEE1AFED0C0795966C6E1 /* FLTSharedPreferencesPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED48019E1EEFAED30162CBDA7CA4F71 /* FLTSharedPreferencesPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 258D716347107834567B10F26076C2E8 /* FLTSharedPreferencesPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5ED811C967577231CA96CB4C6127AEDA /* shared_preferences_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0790062F68048A9654DED597D9BA194B /* shared_preferences_ios-dummy.m */; };
 		6F4507D4A3706002760EA521CB5A6D0B /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
-		724EFC69AB7ECF831CCFD8BB60BEEFC1 /* messages.g.m in Sources */ = {isa = PBXBuildFile; fileRef = 3594C2D65F79842A6F22C0589D8A30D0 /* messages.g.m */; };
-		CE0F96D4DBC8DDFD7F6A6ED624A2B203 /* FLTSharedPreferencesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C48BDCBAC404BFBD2831F937265545E /* FLTSharedPreferencesPlugin.m */; };
+		724EFC69AB7ECF831CCFD8BB60BEEFC1 /* messages.g.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E417888BB6981ADEFD91029B7ACCF4 /* messages.g.m */; };
+		CE0F96D4DBC8DDFD7F6A6ED624A2B203 /* FLTSharedPreferencesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D398BBBBBC64BFD9DD053463E38A691 /* FLTSharedPreferencesPlugin.m */; };
 		E14FE3A559A14B2CE8F029D229181A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F955F2383CD43CBE01A22B2E188D07A1 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -56,11 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E417888BB6981ADEFD91029B7ACCF4 /* messages.g.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = messages.g.m; path = "../../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/Classes/messages.g.m"; sourceTree = "<group>"; };
 		0790062F68048A9654DED597D9BA194B /* shared_preferences_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shared_preferences_ios-dummy.m"; sourceTree = "<group>"; };
-		1C48BDCBAC404BFBD2831F937265545E /* FLTSharedPreferencesPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTSharedPreferencesPlugin.m; path = "../../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/Classes/FLTSharedPreferencesPlugin.m"; sourceTree = "<group>"; };
+		1D398BBBBBC64BFD9DD053463E38A691 /* FLTSharedPreferencesPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTSharedPreferencesPlugin.m; path = "../../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/Classes/FLTSharedPreferencesPlugin.m"; sourceTree = "<group>"; };
 		2353BA7D7C4BA07E5774553F00CDE3CF /* shared_preferences_ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences_ios-prefix.pch"; sourceTree = "<group>"; };
+		258D716347107834567B10F26076C2E8 /* FLTSharedPreferencesPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTSharedPreferencesPlugin.h; path = "../../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/Classes/FLTSharedPreferencesPlugin.h"; sourceTree = "<group>"; };
+		2BC18C47159E7D0E81F60F4355BD1CD1 /* messages.g.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = messages.g.h; path = "../../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/Classes/messages.g.h"; sourceTree = "<group>"; };
 		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
-		3594C2D65F79842A6F22C0589D8A30D0 /* messages.g.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = messages.g.m; path = "../../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/Classes/messages.g.m"; sourceTree = "<group>"; };
 		4289826F7B6F07B826F3277576D8C89F /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
 		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,14 +75,12 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE2C5FB92889028E9DAEBC81231108D /* shared_preferences_ios */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shared_preferences_ios; path = shared_preferences_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
-		AD769F820648A51C89FDD8150C8D23B5 /* messages.g.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = messages.g.h; path = "../../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/Classes/messages.g.h"; sourceTree = "<group>"; };
 		B914EE91C51D3802965E1EFC1D408611 /* shared_preferences_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_ios.debug.xcconfig; sourceTree = "<group>"; };
 		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
 		E37DCCC4C52F1646C3AF4E0ADFB3CA56 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
-		E881A1664DFAEE1AFED0C0795966C6E1 /* FLTSharedPreferencesPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTSharedPreferencesPlugin.h; path = "../../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/Classes/FLTSharedPreferencesPlugin.h"; sourceTree = "<group>"; };
 		E941760009ED54ABBCD6F91BF0B715F3 /* shared_preferences_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_ios.release.xcconfig; sourceTree = "<group>"; };
 		EC928C41B2078DE4F5A07769D0F6D18D /* shared_preferences_ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = shared_preferences_ios.podspec; path = "../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios/shared_preferences_ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
@@ -117,10 +117,19 @@
 			path = "../../../../../../../../../Users/mac-00016/Documents/IDE Flutter/Stable release Flutter SDK/flutter2.5/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.1.1/ios";
 			sourceTree = "<group>";
 		};
-		1DBAAAF32C0D62FEB564B1F95E90271E /* ios */ = {
+		05FF3B0116684ED3CC147604DEF9928C /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				5E4094E6262C1C2CB41AE22C636A4365 /* Classes */,
+				8FEF28EFEDE4E2D624C00BF3591F6427 /* shared_preferences_ios */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		0F32841C5626312A6CD156FAFBC874A3 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				4C9EEF382BC4AD4CF9CD884A53C600C7 /* Classes */,
 			);
 			name = ios;
 			path = ios;
@@ -129,19 +138,10 @@
 		2DC2AC824663A41766939829090DD733 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
-				6E0BF878E4B0297F6F01E3C46A0E5CB1 /* FLUTTERPROJECTS */,
+				BBEABF5D3ACE7CB6EAAB09E2F1FDD6CC /* FLUTTERPROJECTS */,
 			);
 			name = Projects;
 			path = Projects;
-			sourceTree = "<group>";
-		};
-		2E9D1EC83D91D5FFC7120A33484B0361 /* shared_preferences_ios */ = {
-			isa = PBXGroup;
-			children = (
-				1DBAAAF32C0D62FEB564B1F95E90271E /* ios */,
-			);
-			name = shared_preferences_ios;
-			path = shared_preferences_ios;
 			sourceTree = "<group>";
 		};
 		3E79711D23DEFFE01A9E40CF3D7BFAF2 /* .. */ = {
@@ -151,6 +151,18 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		4C9EEF382BC4AD4CF9CD884A53C600C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				258D716347107834567B10F26076C2E8 /* FLTSharedPreferencesPlugin.h */,
+				1D398BBBBBC64BFD9DD053463E38A691 /* FLTSharedPreferencesPlugin.m */,
+				2BC18C47159E7D0E81F60F4355BD1CD1 /* messages.g.h */,
+				01E417888BB6981ADEFD91029B7ACCF4 /* messages.g.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		51A3812C23A85A8E829331BEFAACE079 /* .. */ = {
@@ -179,18 +191,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		5E4094E6262C1C2CB41AE22C636A4365 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E881A1664DFAEE1AFED0C0795966C6E1 /* FLTSharedPreferencesPlugin.h */,
-				1C48BDCBAC404BFBD2831F937265545E /* FLTSharedPreferencesPlugin.m */,
-				AD769F820648A51C89FDD8150C8D23B5 /* messages.g.h */,
-				3594C2D65F79842A6F22C0589D8A30D0 /* messages.g.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		61C7A0C2B8F522EF41EFD50A5A3DD956 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +198,15 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		63B621703F5549A6F443297C5F9A8DD6 /* digital14_demo */ = {
+			isa = PBXGroup;
+			children = (
+				B7A2B3A6A148A5F2486D89107628E3C2 /* ios */,
+			);
+			name = digital14_demo;
+			path = digital14_demo;
 			sourceTree = "<group>";
 		};
 		6485DABF65B34A984B60CF2FBA281C34 /* Support Files */ = {
@@ -215,15 +224,6 @@
 			path = "../../../../Pods/Target Support Files/shared_preferences_ios";
 			sourceTree = "<group>";
 		};
-		661356F2A83BB506005D982D525B7544 /* .symlinks */ = {
-			isa = PBXGroup;
-			children = (
-				CD0FE331329B2FACDB04CEDA71F6A92B /* plugins */,
-			);
-			name = .symlinks;
-			path = .symlinks;
-			sourceTree = "<group>";
-		};
 		6A7691291A9596A8B7B3C432951667C7 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,24 +231,6 @@
 			);
 			name = ..;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		6E0BF878E4B0297F6F01E3C46A0E5CB1 /* FLUTTERPROJECTS */ = {
-			isa = PBXGroup;
-			children = (
-				FB658ADFAB89F07CA7FC25DD7B9F5860 /* DigitalDemo */,
-			);
-			name = FLUTTERPROJECTS;
-			path = FLUTTERPROJECTS;
-			sourceTree = "<group>";
-		};
-		72177AB2DC00826A7E7B897FB4569FAA /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				661356F2A83BB506005D982D525B7544 /* .symlinks */,
-			);
-			name = ios;
-			path = ios;
 			sourceTree = "<group>";
 		};
 		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
@@ -305,6 +287,15 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		8FEF28EFEDE4E2D624C00BF3591F6427 /* shared_preferences_ios */ = {
+			isa = PBXGroup;
+			children = (
+				0F32841C5626312A6CD156FAFBC874A3 /* ios */,
+			);
+			name = shared_preferences_ios;
+			path = shared_preferences_ios;
+			sourceTree = "<group>";
+		};
 		9F25DD1ABD63C1323BF1832E22BF23E2 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,6 +333,15 @@
 			path = "../Pods/Target Support Files/Flutter";
 			sourceTree = "<group>";
 		};
+		B7A2B3A6A148A5F2486D89107628E3C2 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				D18FA8325DC0EB6E6809FE312378326E /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
 		B97E9D8B6990136585D0960EA1495E0E /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +357,15 @@
 				4289826F7B6F07B826F3277576D8C89F /* Flutter.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		BBEABF5D3ACE7CB6EAAB09E2F1FDD6CC /* FLUTTERPROJECTS */ = {
+			isa = PBXGroup;
+			children = (
+				63B621703F5549A6F443297C5F9A8DD6 /* digital14_demo */,
+			);
+			name = FLUTTERPROJECTS;
+			path = FLUTTERPROJECTS;
 			sourceTree = "<group>";
 		};
 		BEBB2E79B8B3CB731FAA8080D1D15230 /* Pod */ = {
@@ -377,15 +386,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		CD0FE331329B2FACDB04CEDA71F6A92B /* plugins */ = {
-			isa = PBXGroup;
-			children = (
-				2E9D1EC83D91D5FFC7120A33484B0361 /* shared_preferences_ios */,
-			);
-			name = plugins;
-			path = plugins;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -404,6 +404,15 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		D18FA8325DC0EB6E6809FE312378326E /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				05FF3B0116684ED3CC147604DEF9928C /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -441,15 +450,6 @@
 			);
 			name = shared_preferences_ios;
 			path = ../.symlinks/plugins/shared_preferences_ios/ios;
-			sourceTree = "<group>";
-		};
-		FB658ADFAB89F07CA7FC25DD7B9F5860 /* DigitalDemo */ = {
-			isa = PBXGroup;
-			children = (
-				72177AB2DC00826A7E7B897FB4569FAA /* ios */,
-			);
-			name = DigitalDemo;
-			path = DigitalDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -2,66 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee353fc-d857-415d-8b27-fd43a965a46b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis_option.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digital14_flutter_task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Runner/RunnerDebug.entitlements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/common/app_loader.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/common/app_routes.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constant/app_assets.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constant/color_constant.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constant/const_value.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constant/constant_public.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constant/font_style.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constant/shared_pref_constants.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constant/string_constants.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cubit/home/home_cubit.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cubit/home/home_cubit_abstraction.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cubit/home/home_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cubit/theme/theme_cubit.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cubit/theme/theme_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/di/injector.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/generated/intl/messages_all.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/generated/intl/messages_en.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/generated/intl/messages_pt.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/generated/l10n.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/l10n/intl_en.arb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/l10n/intl_pt.arb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/model/home_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/model/home_model.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/model/meta.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/model/meta.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/data_source_manager/base_response.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/data_source_manager/base_response.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/data_source_manager/response_wrapper.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/data_source_manager/server_error.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/home_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/retrofit/api_base.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/retrofit/api_client.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/retrofit/api_client.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/retrofit/apis.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repository/retrofit/dio_client.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/theme/app_theme.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/theme/theme_colors.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/app.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/home/athletics_list_detail_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/home/home_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/home/widgets/athletics_list_item.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/shared_pref_utils.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build_runner.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/formatter.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/App.framework/App" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/debug_ios_bundle_flutter_assets.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/debug_universal_framework.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/debug_unpack_ios.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/gen_dart_plugin_registrant.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/kernel_snapshot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/kernel_snapshot.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/76fac8a6550b58ccd955ec8594bfaeb1/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/generated_main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabase.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabaseAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabaseAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabasePool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabasePool.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabaseQueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabaseQueue.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMResultSet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMResultSet.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/path_provider_ios.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/sqflite.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,70 +107,70 @@
       <screen x="0" y="25" width="1920" height="963" />
     </state>
     <state width="436" height="466" key="DebuggerActiveHint/0.25.1920.963@0.25.1920.963" timestamp="1654185883814" />
-    <state width="1763" height="303" key="GridCell.Tab.0.bottom" timestamp="1654276929486">
+    <state width="1763" height="338" key="GridCell.Tab.0.bottom" timestamp="1654283034297">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.0.bottom/0.25.1920.963@0.25.1920.963" timestamp="1654276929486" />
+    <state width="1763" height="338" key="GridCell.Tab.0.bottom/0.25.1920.963@0.25.1920.963" timestamp="1654283034297" />
     <state width="1763" height="357" key="GridCell.Tab.0.bottom/0.25.1920.966@0.25.1920.966" timestamp="1654194567556" />
-    <state width="1763" height="303" key="GridCell.Tab.0.center" timestamp="1654276929485">
+    <state width="1763" height="338" key="GridCell.Tab.0.center" timestamp="1654283034297">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.0.center/0.25.1920.963@0.25.1920.963" timestamp="1654276929485" />
+    <state width="1763" height="338" key="GridCell.Tab.0.center/0.25.1920.963@0.25.1920.963" timestamp="1654283034297" />
     <state width="1763" height="357" key="GridCell.Tab.0.center/0.25.1920.966@0.25.1920.966" timestamp="1654194567555" />
-    <state width="1763" height="303" key="GridCell.Tab.0.left" timestamp="1654276929485">
+    <state width="1763" height="338" key="GridCell.Tab.0.left" timestamp="1654283034297">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.0.left/0.25.1920.963@0.25.1920.963" timestamp="1654276929485" />
+    <state width="1763" height="338" key="GridCell.Tab.0.left/0.25.1920.963@0.25.1920.963" timestamp="1654283034297" />
     <state width="1763" height="357" key="GridCell.Tab.0.left/0.25.1920.966@0.25.1920.966" timestamp="1654194567555" />
-    <state width="1763" height="303" key="GridCell.Tab.0.right" timestamp="1654276929486">
+    <state width="1763" height="338" key="GridCell.Tab.0.right" timestamp="1654283034297">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.0.right/0.25.1920.963@0.25.1920.963" timestamp="1654276929486" />
+    <state width="1763" height="338" key="GridCell.Tab.0.right/0.25.1920.963@0.25.1920.963" timestamp="1654283034297" />
     <state width="1763" height="357" key="GridCell.Tab.0.right/0.25.1920.966@0.25.1920.966" timestamp="1654194567556" />
-    <state width="1763" height="303" key="GridCell.Tab.1.bottom" timestamp="1654276929486">
+    <state width="1763" height="338" key="GridCell.Tab.1.bottom" timestamp="1654283034298">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.1.bottom/0.25.1920.963@0.25.1920.963" timestamp="1654276929486" />
+    <state width="1763" height="338" key="GridCell.Tab.1.bottom/0.25.1920.963@0.25.1920.963" timestamp="1654283034298" />
     <state width="1763" height="2" key="GridCell.Tab.1.bottom/0.25.1920.966@0.25.1920.966" timestamp="1654194555878" />
-    <state width="1763" height="303" key="GridCell.Tab.1.center" timestamp="1654276929486">
+    <state width="1763" height="338" key="GridCell.Tab.1.center" timestamp="1654283034297">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.1.center/0.25.1920.963@0.25.1920.963" timestamp="1654276929486" />
+    <state width="1763" height="338" key="GridCell.Tab.1.center/0.25.1920.963@0.25.1920.963" timestamp="1654283034297" />
     <state width="1763" height="2" key="GridCell.Tab.1.center/0.25.1920.966@0.25.1920.966" timestamp="1654194555878" />
-    <state width="1763" height="303" key="GridCell.Tab.1.left" timestamp="1654276929486">
+    <state width="1763" height="338" key="GridCell.Tab.1.left" timestamp="1654283034297">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.1.left/0.25.1920.963@0.25.1920.963" timestamp="1654276929486" />
+    <state width="1763" height="338" key="GridCell.Tab.1.left/0.25.1920.963@0.25.1920.963" timestamp="1654283034297" />
     <state width="1763" height="2" key="GridCell.Tab.1.left/0.25.1920.966@0.25.1920.966" timestamp="1654194555878" />
-    <state width="1763" height="303" key="GridCell.Tab.1.right" timestamp="1654276929486">
+    <state width="1763" height="338" key="GridCell.Tab.1.right" timestamp="1654283034297">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.1.right/0.25.1920.963@0.25.1920.963" timestamp="1654276929486" />
+    <state width="1763" height="338" key="GridCell.Tab.1.right/0.25.1920.963@0.25.1920.963" timestamp="1654283034297" />
     <state width="1763" height="2" key="GridCell.Tab.1.right/0.25.1920.966@0.25.1920.966" timestamp="1654194555878" />
-    <state width="1763" height="303" key="GridCell.Tab.2.bottom" timestamp="1654276929487">
+    <state width="1763" height="338" key="GridCell.Tab.2.bottom" timestamp="1654283034298">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.2.bottom/0.25.1920.963@0.25.1920.963" timestamp="1654276929487" />
+    <state width="1763" height="338" key="GridCell.Tab.2.bottom/0.25.1920.963@0.25.1920.963" timestamp="1654283034298" />
     <state width="1763" height="2" key="GridCell.Tab.2.bottom/0.25.1920.966@0.25.1920.966" timestamp="1654194555878" />
-    <state width="1763" height="303" key="GridCell.Tab.2.center" timestamp="1654276929486">
+    <state width="1763" height="338" key="GridCell.Tab.2.center" timestamp="1654283034298">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.2.center/0.25.1920.963@0.25.1920.963" timestamp="1654276929486" />
+    <state width="1763" height="338" key="GridCell.Tab.2.center/0.25.1920.963@0.25.1920.963" timestamp="1654283034298" />
     <state width="1763" height="2" key="GridCell.Tab.2.center/0.25.1920.966@0.25.1920.966" timestamp="1654194555878" />
-    <state width="1763" height="303" key="GridCell.Tab.2.left" timestamp="1654276929486">
+    <state width="1763" height="338" key="GridCell.Tab.2.left" timestamp="1654283034298">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.2.left/0.25.1920.963@0.25.1920.963" timestamp="1654276929486" />
+    <state width="1763" height="338" key="GridCell.Tab.2.left/0.25.1920.963@0.25.1920.963" timestamp="1654283034298" />
     <state width="1763" height="2" key="GridCell.Tab.2.left/0.25.1920.966@0.25.1920.966" timestamp="1654194555878" />
-    <state width="1763" height="303" key="GridCell.Tab.2.right" timestamp="1654276929487">
+    <state width="1763" height="338" key="GridCell.Tab.2.right" timestamp="1654283034298">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state width="1763" height="303" key="GridCell.Tab.2.right/0.25.1920.963@0.25.1920.963" timestamp="1654276929487" />
+    <state width="1763" height="338" key="GridCell.Tab.2.right/0.25.1920.963@0.25.1920.963" timestamp="1654283034298" />
     <state width="1763" height="2" key="GridCell.Tab.2.right/0.25.1920.966@0.25.1920.966" timestamp="1654194555878" />
-    <state x="490" y="264" key="IDE.errors.dialog" timestamp="1654276487188">
+    <state x="490" y="264" key="IDE.errors.dialog" timestamp="1654282901058">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
-    <state x="490" y="264" key="IDE.errors.dialog/0.25.1920.963@0.25.1920.963" timestamp="1654276487188" />
+    <state x="490" y="264" key="IDE.errors.dialog/0.25.1920.963@0.25.1920.963" timestamp="1654282901058" />
     <state x="444" y="142" key="SettingsEditor" timestamp="1654096013670">
       <screen x="0" y="25" width="1920" height="963" />
     </state>
