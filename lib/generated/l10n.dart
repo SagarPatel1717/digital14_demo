@@ -59,6 +59,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Título`
+  String get title {
+    return Intl.message(
+      'Título',
+      name: 'title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Título curto`
+  String get shortTitle {
+    return Intl.message(
+      'Título curto',
+      name: 'shortTitle',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

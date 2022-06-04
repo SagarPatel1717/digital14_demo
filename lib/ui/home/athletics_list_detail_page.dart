@@ -6,26 +6,22 @@ import '../../constant/app_assets.dart';
 import '../../constant/color_constant.dart';
 import '../../constant/font_style.dart';
 import '../../cubit/home/home_cubit.dart';
+import '../../generated/l10n.dart';
 
-class AthleticsListDetailPage extends StatefulWidget {
-  const AthleticsListDetailPage({Key? key}) : super(key: key);
-
-  @override
-  State<AthleticsListDetailPage> createState() =>
-      _AthleticsListDetailPageState();
-}
-
-class _AthleticsListDetailPageState extends State<AthleticsListDetailPage> {
+class AthleticsListDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final homeCubit = BlocProvider.of<HomeCubit>(context);
     final _homeModel = homeCubit.currentSelectedHomeModel;
     final index = homeCubit.currentSelectedItemIndex;
-    bool isFavorited = homeCubit.homeModelList?[index]?.isFavorited ?? false;
 
     final queryData = MediaQuery.of(context);
     DateTime createdAt = _homeModel?.createdAt ?? DateTime.now();
     String formattedDate = DateFormat.yMMMEd().format(createdAt);
+
+    //valueNotifier to rebuild only one widget
+    ValueNotifier<bool> isFavorited =
+        ValueNotifier(homeCubit.homeModelList?[index]?.isFavorited ?? false);
 
     return Scaffold(
       appBar: AppBar(
@@ -39,7 +35,7 @@ class _AthleticsListDetailPageState extends State<AthleticsListDetailPage> {
               flex: 5,
               child: Container(
                 child: Text(
-                  _homeModel?.title ?? 'Title',
+                  _homeModel?.title ?? S.of(context).title,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
@@ -49,14 +45,25 @@ class _AthleticsListDetailPageState extends State<AthleticsListDetailPage> {
             ),
             Expanded(
               flex: 1,
-              child: IconButton(
-                icon: Icon(
-                    (isFavorited) ? Icons.favorite : Icons.favorite_border,
-                    color: AppColors.favorite),
-                onPressed: () {
-                  homeCubit.homeModelList?[index]?.isFavorited = !(isFavorited);
-                  homeCubit.updateFavoriteSelection();
-                  setState(() {});
+              child: ValueListenableBuilder<bool>(
+                valueListenable: isFavorited,
+                builder: (context, isFavorite, child) {
+                  return IconButton(
+                    icon: Icon(
+                        (isFavorite) ? Icons.favorite : Icons.favorite_border,
+                        color: AppColors.favorite),
+                    onPressed: () {
+                      // this is to update the home list favorite icon
+                      // which we takes in stack
+                      homeCubit.homeModelList?[index]?.isFavorited =
+                          !isFavorited.value;
+                      // update the value of valueNotifier to rebuild only
+                      // IconButton widget of this stateless widget
+                      isFavorited.value = !isFavorited.value;
+                      // emit state so that home list have the latest value
+                      homeCubit.updateFavoriteSelection();
+                    },
+                  );
                 },
               ),
             ),
@@ -96,7 +103,7 @@ class _AthleticsListDetailPageState extends State<AthleticsListDetailPage> {
                 height: 12,
               ),
               Text(
-                _homeModel?.shortTitle ?? 'shortTitle',
+                _homeModel?.shortTitle ?? S.of(context).shortTitle,
                 style: AppFontStyle.textXNormal(color: AppColors.blackLight),
               ),
             ],
