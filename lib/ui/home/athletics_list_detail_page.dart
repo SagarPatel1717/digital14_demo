@@ -43,6 +43,11 @@ class AthleticsListDetailPage extends StatelessWidget {
                 ),
               ),
             ),
+            // we can also use blocbuilder here
+            // but ValueListenableBuilder is just to show case the use for
+            // future uses in some scenario where we don't inject or create
+            // the blocs for small uses and just want to rebuild
+            // widget independently.
             Expanded(
               flex: 1,
               child: ValueListenableBuilder<bool>(
